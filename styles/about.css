@@ -1,21 +1,21 @@
 .TAs {
-    background-color: white;
+    background-color: #f0f8ff;  /* Light blue background */
     padding: 1rem;
     border-radius: 3rem;
     margin: 1.5rem;
     transition: 0.2s ease;
     overflow: auto;
-    position: relative
+    position: relative;
 }
 
 .TAs:hover {
-    box-shadow: 0.5rem 0.5rem 0rem 0rem #335c67;
+    box-shadow: 0.5rem 0.5rem 0rem 0rem #1e3a5f;  /* Darker blue shadow */
 }
 
 .TAs #vic_content legend {
-    font-family: "DynaPuff", sans-serif;
+    font-family: "Marker Felt", fantasy;
     font-size: 1.6rem;
-    color: #cc0007
+    color: #5f9ea0;  /* Soft teal blue color for the legend */
 }
 
 .TAs #vic_content {
@@ -29,7 +29,12 @@
 }
 
 .TAs #vic_content #email_info {
-    background-color: #335c675e;
+    background-color: #5f9ea0;  /* Darker blue background for the email section */
+    padding: 0.5rem;
+}
+
+.TAs #vic_content #axolotl_info {
+    background-color: #5f9ea0;  /* Darker blue background for the email section */
     padding: 0.5rem;
 }
 
@@ -49,46 +54,45 @@
     padding: 1rem;
 }
 
-.TAs #vic_content li{
-    background-color: #fff3b0;
+.TAs #vic_content li {
+    /* About Me Details */
+    background-color: #b3cb61;  /* Steel blue background */
     margin: 0.3rem;
     padding: 0.5rem;
     border-radius: 1rem;
     transition: 0.2s ease;
 }
 
-.TAs #vic_content li:hover a{
+.TAs #vic_content li:hover a {
     transition: 0.2s ease;
-    background-color: #e48a02;
+    background-color: #5f9ea0;  /* Lighter blue-green for hover */
     padding: 0.5rem;
     border-radius: 1rem;
-    color: #fff3b0;
+    color: #fff;  /* White text on hover */
 }
 
-
 .TAs #vic_content li:hover h3 {
-    color: #fff3b0;
+    color: #fff;  /* White color on hover */
 }
 
 .TAs img {
     width: 50%;
     margin: 1rem;
-    border: 0.2rem solid #335c67;
+    border: 0.2rem solid #4682b4;  /* Steel blue border */
 }
 
 .TAs a img:hover {
-    border: 0.2rem solid #080808;
+    border: 0.2rem solid #5f9ea0;  /* Darker border on hover */
     opacity: 0.8;
 } 
 
 .TAs #vic_content a {
     text-decoration: none;
-    color: black;
+    color: #d1edff;  /* Dark blue for links */
 }
 
 @media screen and (min-width: 50rem) {
     .TAs img {
         width: 20%;
     }
-    
 }

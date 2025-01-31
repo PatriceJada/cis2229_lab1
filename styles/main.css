@@ -5,7 +5,7 @@
 
 body {
     background: #F4F4F4;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Marker Felt', fantasy;
 }
 
 main {
@@ -15,8 +15,8 @@ main {
 h1,
 h2,
 h3 {
-    font-family: "DynaPuff", sans-serif;
-    color: #e48a02;
+    font-family:'Marker Felt', fantasy;
+    color: #4682b4;
     margin: 1rem 0rem 0.5rem 0rem;
 }
 
@@ -35,23 +35,34 @@ a:hover {
     color: #ff0004;
 }
 
+/* Center the image container */
 .center_img {
-    height: 30rem;
-    width: auto;
-    margin: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Centers the image vertically */
+    width: 100%;             /* Ensures the container takes the full width available */
+    max-width: 80%;          /* Optional: Limits the container to 80% of the available space */
+    margin: 0 auto;          /* Centers the container itself */
+}
+
+/* Style for the image itself */
+.center_img img {
+    width: 100%;             /* Ensures the image takes up 100% of its container's width */
+    height: auto;            /* Keeps the aspect ratio intact */
+    max-width: 100%;         /* Prevents the image from overflowing */
+    border-radius: 1rem;     /* Optional: rounded corners */
 }
 
 
+
 img {
-    height: 80%;
+    height: 90%;
     border-radius: 3rem;
     border: 0.5rem solid #335c67;
 }
 
 nav {
-    background-color: #335c67;
+    background-color: #5f9ea0;
     padding: 1rem;
 }
 
@@ -82,7 +93,7 @@ nav a:hover {
 
 
 footer {
-    background-color: #335c67;
+    background-color: #5f9ea0;
     text-align: center;
     padding: 2rem;
     color: #fff3b0;
